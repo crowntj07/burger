@@ -12,3 +12,13 @@ router.get("/", function(req, res) {
 		res.render("index", hbsObject);
 	});
 });
+
+router.post("/", function(req, res) {
+	console.log(req.body.burger_name);
+	if(req.body.burger_name !== "") {
+		burger.insertOne(req.body.burger_name.trim(), function() {
+			res.redirect("/");
+		});
+	}
+});
+
