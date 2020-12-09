@@ -1,12 +1,12 @@
-let express = require("express");
-let methodOverride = require("method-override");
-let bodyParser = require("body-parser");
-let exphbs = require("express-handlebars");
-let router = require("./controllers/burgers_controller.js");
-let path = require("path");
+var express = require("express");
+var methodOverride = require("method-override");
+var bodyParser = require("body-parser");
+var exphbs = require("express-handlebars");
+var router = require("./controllers/burgers_controller.js");
+var path = require("path");
 
-let app = express();
-let PORT = process.env.PORT || 3000;
+var app = express();
+var PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(methodOverride("_method"));
