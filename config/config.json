@@ -1,24 +1,20 @@
 {
-    "development": {
-      "username": "kux0vk71jsrwuhem",
-      "password": "rk3lh99gjb34874j",
-      "database": "ej56ylm71l0jiy80",
-      "host": "ko86t9azcob3a2f9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-      "dialect": "mysql"
-    },
-    "test": {
-        "username": "kux0vk71jsrwuhem",
-        "password": "rk3lh99gjb34874j",
-        "database": "ej56ylm71l0jiy80",
-        "host": "ko86t9azcob3a2f9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-        "dialect": "mysql"
-    },
-    "production": {
-        "username": "kux0vk71jsrwuhem",
-        "password": "rk3lh99gjb34874j",
-        "database": "ej56ylm71l0jiy80",
-        "host": "ko86t9azcob3a2f9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-        "dialect": "mysql"
-    }
+  "development": {
+    "username": "root",
+    "password": "2007M#lrose",
+    "database": "burger_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "burger_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
   }
-  
+}

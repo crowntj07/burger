@@ -6,7 +6,7 @@ var router = require("./controllers/burgers_controller.js");
 var path = require("path");
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3003;
 
 // Middleware
 app.use(methodOverride("_method"));
