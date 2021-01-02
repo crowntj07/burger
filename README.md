@@ -2,11 +2,11 @@
 
 ## Tech Used
 
-# JavaScript
-# Node
-# Express
-# Handlebars
-# MVC
+JavaScript
+Node
+Express
+Handlebars
+MVC
 
 # Requirements
 
